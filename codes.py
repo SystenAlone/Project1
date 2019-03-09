@@ -21,8 +21,7 @@ class conta:
         
 
     def sacar(self):
-        #n tá indo, arrumar depois
-        
+            
         self.valorSac = int(input("digite o valor a ser sacado: "))
         if self.valorSac <= self.saldo:
             verificar = int(input("digite a sua senha: "))
